@@ -1,0 +1,160 @@
+/* this style sheet is for the main (index.html) page */
+
+
+h1.header{
+  
+  background-color: white;
+  color: mediumpurple;
+  text-align: center;
+  font-size: 3em;
+  padding: 2%
+}
+
+
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.main-nav{
+  background-color: mediumpurple;
+  font-size: 1.4em;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 1% 0;
+  
+    
+  
+}
+
+.content-wrapper{
+  
+  
+  background-color: #e0e0eb;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+aside{
+  clear: both;
+  float: left;
+  background-color: #ccb3ff;
+  font-size: 1.5em;
+  padding-top: 6%;
+  padding: 3%;
+  height: 490px;  
+    
+    
+}
+
+/* Main navigation element styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-right: 3px solid #7300e6;
+  font-weight: bold;
+  
+    
+}
+
+
+/* Aside navigation element styling */
+aside a {
+  color: white;
+  text-decoration: none;
+ /* margin: auto;*/
+  display: block;
+  padding-bottom: 12px;
+  padding-top: 12.5px;
+      
+}
+
+
+
+
+figure{
+  
+  float: left;
+  padding-left: 16.9px;
+  padding-top: 5%;
+  width: 75%;
+  display: block;
+  
+}
+
+figure img{
+  
+  clear: both;
+  margin: auto;
+  display: block;
+  padding-bottom: 25px;
+  
+  
+  
+  
+}
+
+/* Vincent Price picture too large*/
+
+figure img.vp{
+  
+  clear: both;
+  margin: auto;
+  display: block;
+  padding-bottom: 25px;
+  width: 55%
+  
+}
+
+figcaption{
+  
+  clear: both;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 4%;
+  width: 55%;  
+  
+  
+}
+
+/* styling adjustment for text in Christopher Lee page */
+
+figcaption.cl{
+  
+  clear: both;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 1%;
+  width: 85%;  
+  
+  
+}
+
+
+footer {
+  background-color: white;
+  clear: both;
+  margin: auto;
+  padding: 5%;
+  text-align: center;
+  display: block;
+  
+    
+}
+
+/*footer styling for social media buttons*/
+
+footer img {
+  
+  
+  width: 5%;
+  padding-left: 5%;
+    
+  
+}
